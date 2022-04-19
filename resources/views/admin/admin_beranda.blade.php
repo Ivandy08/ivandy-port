@@ -15,7 +15,7 @@
                       </div>
                       <div class="col-3 col-sm-2 col-xl-2 pl-0 text-center">
                         <span>
-                          <a href="https://www.bootstrapdash.com/product/corona-admin-template/" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Go for it!</a>
+                          <a href="{{ route('signout') }}"  onclick="return confirm('Are you sure to logout ?')" class="btn btn-outline-light btn-rounded get-started-btn">Logout</a>
                         </span>
                       </div>
                     </div>
@@ -24,7 +24,6 @@
               </div>
             </div>
           
-           
             <div class="row">
               <div class="col-sm-4 grid-margin">
                 <div class="card">
